@@ -13,7 +13,7 @@ st.caption("Cette application permet de prédire les chiffres manuscrits en util
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("./model/mnist_model.h5")
+    model = tf.keras.models.load_model("./mnist_model.h5")
     return model 
 
 with st.spinner("Chargement du modèle..."): 
@@ -126,6 +126,7 @@ if st.button("📈 Lancer la prédiction"):
         
         
         
+
 
 
 
