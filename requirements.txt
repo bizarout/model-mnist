@@ -3,4 +3,5 @@ streamlit==1.46.1
 tensorflow-cpu==2.20.0
 Pillow<12
 streamlit_drawable_canvas
+matplotlib
 
